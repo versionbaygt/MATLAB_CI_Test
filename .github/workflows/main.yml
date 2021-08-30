@@ -8,7 +8,7 @@ jobs:
       - uses: matlab-actions/setup-matlab@v0
       - uses: matlab-actions/run-tests@v0
         with:
-          source-folder: source
+          source-folder: code
           code-coverage-cobertura: coverage.xml
       - uses: codecov/codecov-action@v1
         with:
